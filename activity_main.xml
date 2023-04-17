@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:outlineAmbientShadowColor="@color/cardview_shadow_start_color"
+    android:textColor="#D11111"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/no2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="329dp"
+            android:ems="10"
+            android:hint="enter 2"
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="393dp"
+            android:background="#2196F3"
+            android:text="Enter number 2"
+            android:textColor="#D11111"
+            android:textColorHighlight="#EDE8E8"
+            android:textColorHint="#EDDFDF"
+            android:textColorLink="#F3EBED"
+            android:textSize="48sp" />
+
+        <EditText
+            android:id="@+id/no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="524dp"
+            android:ems="10"
+            android:hint="enter"
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="81dp"
+            android:layout_marginBottom="579dp"
+            android:background="#2196F3"
+            android:text="Enter number 1"
+            android:textColor="#D11111"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="239dp"
+            android:text="Resullt"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="170dp"
+            android:onClick="divide"
+            android:text="/"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="119dp"
+            android:layout_marginBottom="168dp"
+            android:onClick="multiply"
+            android:text="*"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="217dp"
+            android:layout_marginBottom="168dp"
+            android:onClick="subtraction"
+            android:text="-"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="168dp"
+            android:onClick="addition"
+            android:text="+"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="669dp"
+            android:text="CALCULATOR"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
